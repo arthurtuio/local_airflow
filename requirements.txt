@@ -3,7 +3,8 @@ mysqlclient
 cryptography==2.8
 cython==0.29.22
 setuptools_rust==0.11.6
-apache-airflow[crypto,password,mysql,mssql,postgres,s3,jdbc]
+apache-airflow[crypto,password,mysql,postgres,s3,jdbc]
+jsonschema
 gspread>=0.6.2
 authlib>=0.7
 
