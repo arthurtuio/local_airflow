@@ -46,4 +46,4 @@ airflow scheduler
 2. Open your project in the IDE, and open the command line for the project (make sure it's synced with the repo in github)
 3. On the command line, log in heroku using `heroku login`
 4. Create a project using `heroku create <project_name>`
-5. Push the content on the repo to heroku using: `git push heroku master`
+5. Follow this tutorial: https://medium.com/@damesavram/running-airflow-on-heroku-ed1d28f8013d
