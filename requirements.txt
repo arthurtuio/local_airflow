@@ -3,7 +3,8 @@
 # cryptography==2.8
 # cython==0.29.22
 # setuptools_rust==0.11.6
-jsonschema==3.0.0
+poetry
+jsonschema==3.0.1
 apache-airflow[password,mysql,postgres,s3]
 # gspread>=0.6.2
 # authlib>=0.7
