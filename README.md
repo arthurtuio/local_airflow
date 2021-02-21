@@ -2,7 +2,7 @@
 Airflow is a workflow scheduler that controls the data pipeline.
 
 
-# Dependencies
+## Dependencies
 ### IDE
 - Pycharm CE (has a better virtual environment manager): https://www.jetbrains.com/pycharm/
 - Visual Studio Code: https://code.visualstudio.com/
@@ -27,7 +27,7 @@ sudo apt-get install build-essential libssl-dev python3-dev mysql-client libmysq
 pip3 install -r requirements.txt
 ```
 
-# Running Airflow locally
+## Running Airflow locally
 ```bash
 # initialize sqlite3 database
 airflow initdb
@@ -38,3 +38,12 @@ airflow webserver
 # start scheduler
 airflow scheduler
 ```
+
+# Running airflow on Heroku
+
+## Sync heroku project with repo
+1. Make sure to have the Heroku CLI on your PC.
+2. Open your project in the IDE, and open the command line for the project (make sure it's synced with the repo in github)
+3. On the command line, log in heroku using `heroku login`
+4. Create a project using `heroku create <project_name>`
+5. Push the content on the repo to heroku using: `git push heroku master`
