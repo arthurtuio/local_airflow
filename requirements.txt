@@ -6,7 +6,7 @@
 urllib3==1.24.3
 poetry
 jsonschema==3.0.1
-apache-airflow[password,mysql,postgres,s3]
+apache-airflow[password,mysql,postgres,s3]==1.10.2
 
 # gspread>=0.6.2
 # authlib>=0.7
