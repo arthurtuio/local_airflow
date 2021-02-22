@@ -18,4 +18,4 @@
   yum install gcc python3-devel
   ```
 8. Install the requirements
-9. Initialize the airflow db, webserver, configs, etc
+9. Initialize the airflow db, webserver, configs, etc. **Follow this link: https://medium.com/@abraham.pabbathi/airflow-on-aws-ec2-instance-with-ubuntu-aff8d3206171**
