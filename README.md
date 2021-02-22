@@ -50,11 +50,4 @@ airflow scheduler
 
 
 # Running airflow on EC2
-
-1. Create an EC2 Instance, leaving open at least the port 8080 for HTTP requests
-2. Log in your AWS profile using `export AWS_PROFILE=<your_profile>`
-3. Run `chmod 400 mykey.pem`
-4. ssh into the instance: `ssh -i mykey.pem ec2-user@my-instance-public-dns-name`
-5. In the instance, go root level (sudo su), install git and pip: `yum install git-all` , `yum install python3-pip`
-6. Clone this repo
-7. **If the EC2 doesnt have apt**, then run `yum install python-devel mysql-devel`, `yum install gcc python3-devel` then `pip3 install setuptools_rust==0.11.6`
+-> Go to the repo corresponding folder
