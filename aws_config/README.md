@@ -19,3 +19,6 @@
   ```
 8. Install the requirements
 9. Initialize the airflow db, webserver, configs, etc. **Follow this link: https://medium.com/@abraham.pabbathi/airflow-on-aws-ec2-instance-with-ubuntu-aff8d3206171**
+
+10. Another link that might help is this: https://christo-lagali.medium.com/getting-airflow-up-and-running-on-an-ec2-instance-ae4f3a69441
+  -> Here it shows which folder is airflow.cfg and how to change the port  (`nano airflow.cfg`, `ctrl+O` to save and `ctrl+X` to quit)
