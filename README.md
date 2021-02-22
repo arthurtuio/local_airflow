@@ -54,4 +54,4 @@ airflow scheduler
 1. Create an EC2 Instance, leaving open at least the port 8080 for HTTP requests
 2. Log in your AWS profile using `export AWS_PROFILE=<your_profile>`
 3. Run `chmod 400 mykey.pem`
-4. ssh into the instance: `ssh -i mykey.pem my-instance-user-name@my-instance-public-dns-name`
+4. ssh into the instance: `ssh -i mykey.pem ec2-user@my-instance-public-dns-name`
