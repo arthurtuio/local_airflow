@@ -1,5 +1,7 @@
 # How to install and run airflow on an EC2 #
 
+**Make sure to get an big EC2 instance, like t2.medium, as the free tier won't be able to get the job done**
+
 1. Create an EC2 Instance, leaving open at least the port 8080 for HTTP requests
 2. Log in your AWS profile using `export AWS_PROFILE=<your_profile>`
 3. Run `chmod 400 mykey.pem`
