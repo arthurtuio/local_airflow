@@ -22,3 +22,5 @@
 
 10. Another link that might help is this: https://christo-lagali.medium.com/getting-airflow-up-and-running-on-an-ec2-instance-ae4f3a69441
   -> Here it shows which folder is airflow.cfg and how to change the port  (`nano airflow.cfg`, `ctrl+O` to save and `ctrl+X` to quit)
+
+11. Acredito ser necessario criar um banco de dados pra rodar o airflow, esse tutorial aqui ensina como criar um postgres
